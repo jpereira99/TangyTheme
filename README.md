@@ -10,9 +10,9 @@ A minimal and elegant theme for Jellyfin forked from stpnwf's [ZestyTheme](https
 
 ### **Screenshots:**
 
-<img src="./images/homeTangy.jpg" alt="home" width="100%"/>
-<img src="./images/movieTangy.jpg" alt="movie screen" width="100%"/>
-<img src="./images/liveTangy.jpg" alt="live tv guide" width="100%"/>
+<img src="./images/homeTangy.png" alt="home" width="100%"/>
+<img src="./images/movieTangy.png" alt="movie screen" width="100%"/>
+<img src="./images/liveTangy.png" alt="live tv guide" width="100%"/>
 
 
 ---
