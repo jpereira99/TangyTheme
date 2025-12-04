@@ -2,8 +2,6 @@
 
 A minimal and elegant theme for Jellyfin forked from stpnwf's [ZestyTheme](https://github.com/stpnwf/ZestyTheme).
 
-  
-
 **My goal for this fork is to unify and enhance some styling for my own personal UI/UX preferences wherever I can.**
 
 ---
@@ -14,59 +12,61 @@ A minimal and elegant theme for Jellyfin forked from stpnwf's [ZestyTheme](https
 <img src="./images/movieTangy.png" alt="movie screen" width="100%"/>
 <img src="./images/liveTangy.png" alt="live tv guide" width="100%"/>
 
-
 ---
 
 ## Installing
 
-To add the theme to Jellyfin `v10.11+`, copy the following line to Dashboard > Branding² > Custom CSS:
+To add the theme to Jellyfin `v10.11+`, copy the following line to Dashboard > Branding > Custom CSS:
 
 ```
-@import url('https://cdn.jsdelivr.net/gh/jpereira99/TangyTheme@latest/theme.css');
+@import url('https://cdn.jsdelivr.net/gh/jpereira99/TangyTheme/theme.css');
 ```
 
-Here are the additional plugins that I use in Jellyfin, please refer to each respective GitHub page for instillation instructions
+or for the full suite of enhancements:
 
- - [Home Sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections)
- - [Media Bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar)
- - [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation)
- - [Plugin Pages](https://github.com/IAmParadox27/jellyfin-plugin-pages)
- - [Jellyfin Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced)
- - [Jellyfin Teaks](https://github.com/n00bcodr/JellyfinTweaks)
-
-*TODO: Add a current setup page that documents all the settings I run for each plugin*
-
-<br>
-
-<details>
-<summary>For older Jellyfin versions (v10.10), add the following line instead:</summary>
-
-Jellyfin `v10.10.x`:
-<br>
 ```
-@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css');
+@import url('https://cdn.jsdelivr.net/gh/jpereira99/TangyTheme/tangy.css');
 ```
-</details>
 
 Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹
 
+Here are the additional plugins that I use in Jellyfin, please refer to each respective GitHub page for instillation instructions
+
+-   [Home Sections](https://github.com/IAmParadox27/jellyfin-plugin-home-sections)
+-   [Media Bar](https://github.com/IAmParadox27/jellyfin-plugin-media-bar)
+-   [File Transformation](https://github.com/IAmParadox27/jellyfin-plugin-file-transformation)
+-   [Plugin Pages](https://github.com/IAmParadox27/jellyfin-plugin-pages)
+-   [Jellyfin Enhanced](https://github.com/n00bcodr/Jellyfin-Enhanced)
+-   [Jellyfin Tweaks](https://github.com/n00bcodr/JellyfinTweaks)
+
+_TODO: Add a current setup page that documents all the settings I run for each plugin_
+
+### Optional Extras
+
+<details>
+<summary>Here are some additional CSS that you can use adhoc to your Custom CSS settings:</summary>
+
+#### Disable DVR Recording
+
+Sets relevant recording buttons around the Live TV screens to `display: none` ; therefore, it is **not** a perfect fix but is a casual enough fix for me.
+
+```
+@import url('https://cdn.jsdelivr.net/gh/jpereira99/TangyTheme/extras/disable_dvr_recording.css');
+```
+
+</details>
+
 ### Notes:
 
- ¹ You *must* enable Backdrops on *every* device you plan to use this on, otherwise theme **WILL** look broken.
+¹ You _must_ enable Backdrops on _every_ device you plan to use this on, otherwise theme **WILL** look broken (Jellyfin Tweaks helps auto-setting that).
 
- ² On Jellyfin versions below `v10.11` the custom CSS is located at Dashboard > _General_ > Custom CSS.
-
- This theme looks best with background images whose content is skewed right. [As demonstrated here](./images/extras/bg-guide.jpg).
-
- I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it...
-
- I plan to get to theming TV mode (Settings > Display > Display Mode > TV) soon™. Looks broken right now.
+This theme looks best with background images whose content is skewed right. [As demonstrated here](./images/extras/bg-guide.jpg).
 
 ---
 
 ### Disclaimers:
 
- Theme is still **WIP**, and may look broken in some areas. Please report any issues.
+Theme is still **WIP**, and may look broken in some areas. Please report any issues.
 
 **AI Usage:**
 
