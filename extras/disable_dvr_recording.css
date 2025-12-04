@@ -1,0 +1,23 @@
+/* ============================================================================
+ * Tangy Enhancements for Disabling* Buttons to Prevent DVR Recording
+ * ============================================================================
+ *
+ * This is a workaround to just hide buttons wherever possible, not a true fix.
+ * Obviously a user can change the styles in browser dev tools if they know where in the html to look.
+ * Maybe a plugin exists that adds some setting but no way to disable in 10.11.3 afaik.
+ */
+
+/* Button when clicked on a show card in guide */
+/* This also applies to viewing an upcoming program of a particular channel */
+/* Or the "Record Series" button when viewing an upcoming program associated with a series */
+.recordingButton {
+	display: none;
+}
+/* Button when watching a live tv program */
+.btnRecord {
+	display: none;
+}
+/* Container for recording buttons, just in case */
+.recordingFields {
+	display: none;
+}
