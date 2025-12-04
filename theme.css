@@ -4300,7 +4300,7 @@ imgLogoIcon {
 #slides-container > .slide > .info-container > .misc-info {
 	font-family: "indivisible", sans-serif;
 }
-#slides-container > .slide > .info-container > .misc-info > .separator-icon {
+.separator-icon {
 	color: rgb(var(--accent));
 }
 #slides-container > .slide > .info-container > .misc-info > .date{
@@ -4336,4 +4336,21 @@ imgLogoIcon {
     border-radius: var(--rounding-circle) !important;
     color: rgb(var(--cherry-red)) !important;
     backdrop-filter: blur(50px) !important;
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	/* Change button order and position for mobile */
+	#slides-container > .slide > .button-container > .play-button {
+		order: 2 !important;
+    	left: 0px !important;
+	}
+	#slides-container > .slide > .button-container > .detail-button {
+		order: 1 !important;
+		position: relative;
+		right: 70px;
+	}
+	#slides-container > .slide > .button-container > .favorite-button {
+		order: 3 !important;
+		position: relative;
+    	left: 60px;
+	}
 }
